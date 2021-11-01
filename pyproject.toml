@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "py4cdl"
+version = "0.1.0"
+description = "Media downloader for a certain image board."
+authors = ["Matthias Heinz <heinz.matthias.3@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+beautifulsoup4 = "^4.10.0"
+click = "^8.0.3"
+tqdm = "^4.62.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
